@@ -1,0 +1,24 @@
+#include<stdio.h>
+struct link
+{
+int info;
+struct link *next;
+};
+typedef struct link node
+node *head=null;
+(node *)malloc (size of(node))
+node *newnode(int value)
+{
+p=(node *)malloc (size of (node));
+p->info=value;
+p->next=null;
+}
+void display()
+{
+curr=head;
+while(curr!=null)
+{
+curr=curr->next;
+}
+printf("%d",curr->next);
+}
